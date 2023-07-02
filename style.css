@@ -1,0 +1,64 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font-family: helvetica;
+	color: #555;
+}
+
+header{
+	width: 100vw;
+	height:100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: lightblue;
+}
+
+header form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	width: 21rem;
+	height: 13rem;
+}
+header form input{
+	width: 16rem;
+	height: 2.2rem;
+	margin-bottom: .5rem;
+	background-color: #eee;
+	padding: .7rem;
+	color: #555;
+	border: none;
+}
+header form p{color: #000; font-size: .5rem; display: flex; flex-direction: column;justify-content: flex-start;align-items: center;}
+header form p a{color:#6699FF;font-size: .8rem; }
+
+.user
+{
+ background-image: url('img/user.png');
+ background-repeat: no-repeat;
+ background-position: right;
+}
+.pass{
+	background-image: url('img/padlock.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+header form button{
+ cursor: pointer;
+ background-color: #6699FF;
+ color: #fff;
+ text-align: center;
+ margin-top: .5rem;
+ padding: 0;
+ width: 16rem;
+ height: 2rem;
+ margin-bottom: .5rem;
+ border: none;
+}
